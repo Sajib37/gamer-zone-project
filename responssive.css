@@ -75,6 +75,24 @@
     .play-instant-text h3 {
         font-size: 2rem;
     }
+    .play-games{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .play-games-image{
+        margin-top: 7rem;
+    }
+    .second-large-image{
+        max-width: 200px;
+        margin-top: 1.5rem;
+    }
+    .second-small-image{
+        max-width: 100px;
+    }
+    .play-games-text{
+        margin-top: 5rem;
+    }
 }
 
 /* for tablet screen */
@@ -126,5 +144,23 @@
     }
     .small-image {
         max-width: 200px;
+    }
+    .play-games{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .play-games-image{
+        margin-top: 7rem;
+    }
+    .second-large-image{
+        max-width: 400px;
+        margin-top: 1.5rem;
+    }
+    .second-small-image{
+        max-width: 200px;
+    }
+    .play-games-text{
+        margin-top: 5rem;
     }
 }

@@ -250,3 +250,31 @@ nav{
     left: -25%;
     bottom: -10%;
 }
+.play-games{
+    max-width: 1400px;
+    min-width: 370px;
+    margin: auto;
+    display: flex;
+    margin-top: 20vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.play-games-image{
+    position: relative;
+}
+.play-games-text{
+    max-width: 350px;
+    text-align: left;
+}
+.second-large-image{
+    max-width: 600px;
+}
+.play-games-text h3{
+    font-size: 2rem;
+}
+.second-small-image{
+    max-width: 300px;
+    position: absolute;
+    right: -25%;
+    bottom: -20%;
+}
