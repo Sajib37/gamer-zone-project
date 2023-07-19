@@ -103,6 +103,29 @@
     .career-image {
         width: 90%;
     }
+    footer {
+        height: auto;
+    }
+    footer h3 {
+        font-size: 1.5rem;
+    }
+    .support-link {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+    .support-link a {
+        font-size: 1rem;
+    }
+    .icon-container {
+        gap: 1rem;
+    }
+    .terms-condition {
+        gap: 1rem;
+    }
+    footer .para{
+        font-size: 14px;
+    }
 }
 
 /* for tablet screen */
@@ -181,5 +204,8 @@
     }
     .career-image {
         width: 90%;
+    }
+    footer{
+        height: 50vh;
     }
 }
