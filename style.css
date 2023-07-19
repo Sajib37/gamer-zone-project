@@ -17,6 +17,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: 3px solid #F9F9F9;
 }
 .nav-logo{
     display: flex;
@@ -65,13 +66,18 @@ nav{
     min-width: 370px;
     height: auto;
     margin: auto;
-    background-image: linear-gradient(to right,#fcf1fc,white);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: 
         "text-part image-part";
     align-items: center;
     padding: 0px 1rem;
+}
+.bg-image{
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    top: 25%;
 }
 .banner-text{
     display: flex;
@@ -202,9 +208,15 @@ nav{
 .videos-container div{
     width: 20%;
 }
+.videos-container div .para{
+    text-align: center;
+    margin-top: 10px;
+    padding: 0px 5px;
+}
 .videos-container img{
     width: 100%;
 }
 .videos-container img:hover{
-
+    border-color: black;
+    background-blend-mode: overlay;
 }
