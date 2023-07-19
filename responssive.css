@@ -43,8 +43,12 @@
     .videos-container{
         flex-direction: column;
     }
+    .videos-container div{
+        width: 90%;
+    }
     .videos-container img{
         width: 95%;
+        margin: auto;
     }
 }
 

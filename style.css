@@ -13,7 +13,7 @@ nav{
     max-width: 1400px;
     min-width: 370px;
     margin: auto;
-    padding: 2rem 1rem;
+    /* padding: 2rem 1rem; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,7 +143,6 @@ nav{
     align-items: center;
     background-color: #FFF9FC;
     margin: auto;
-    border: 2px solid yellow;
 }
 .gamer-image{
     width: 60%;
@@ -200,6 +199,12 @@ nav{
     width: 100%;
     gap: 2rem;
 }
-.videos-container img{
+.videos-container div{
     width: 20%;
+}
+.videos-container img{
+    width: 100%;
+}
+.videos-container img:hover{
+
 }
