@@ -64,6 +64,7 @@ nav{
 .banner{
     max-width: 1400px;
     min-width: 370px;
+    position: relative;
     height: auto;
     margin: auto;
     display: grid;
@@ -76,8 +77,8 @@ nav{
 .bg-image{
     position: absolute;
     left: 0px;
-    width: 50%;
-    top: 25%;
+    width: 60%;
+    top: 15%;
 }
 .banner-text{
     display: flex;
