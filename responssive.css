@@ -57,22 +57,22 @@
         width: 95%;
         margin: auto;
     }
-    .play-instant{
+    .play-instant {
         flex-direction: column;
         width: 100%;
         margin: 0px;
     }
-    .large-image{
+    .large-image {
         max-width: 200px;
         margin-top: 1.5rem;
     }
-    .small-image{
+    .small-image {
         max-width: 100px;
     }
-    .play-instant-text{
+    .play-instant-text {
         max-width: 250px;
     }
-    .play-instant-text h3{
+    .play-instant-text h3 {
         font-size: 2rem;
     }
 }
@@ -114,5 +114,17 @@
     .gamer-image {
         width: 95%;
         margin: auto;
+    }
+    .play-instant {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .large-image {
+        max-width: 400px;
+        margin-top: 1.5rem;
+    }
+    .small-image {
+        max-width: 200px;
     }
 }
