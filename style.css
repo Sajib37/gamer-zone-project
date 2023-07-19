@@ -13,7 +13,7 @@ nav{
     max-width: 1400px;
     min-width: 370px;
     margin: auto;
-    /* padding: 2rem 1rem; */
+    padding: 2rem 0rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,6 +37,7 @@ nav{
     display: flex;
     width: 40%;
     justify-content: space-between;
+    align-items: center;
     font-size: 1.2rem;
     font-weight: 500;
 }
@@ -64,7 +65,6 @@ nav{
 .banner{
     max-width: 1400px;
     min-width: 370px;
-    position: relative;
     height: auto;
     margin: auto;
     display: grid;
@@ -72,20 +72,26 @@ nav{
     grid-template-areas: 
         "text-part image-part";
     align-items: center;
-    padding: 0px 1rem;
 }
-.bg-image{
-    position: absolute;
-    left: 0px;
-    width: 60%;
-    top: 15%;
-}
+
 .banner-text{
     display: flex;
     flex-direction: column;
     gap: 1rem;
     grid-area: text-part;
     padding: 1rem;
+    position: relative;
+}
+.bg-image{
+    position: absolute;
+    left: 0px;
+    width: 60%;
+    top: 20%;
+}
+.banner>img{
+    height: 75vh;
+    width: 80%;
+    grid-area: image-part;
 }
 .banner-text title{
     font-weight: 600;
@@ -131,11 +137,7 @@ nav{
     width: 9rem;
     background-color: #4EC5F7;
 }
-.banner img{
-    height: 75vh;
-    width: 95%;
-    grid-area: image-part;
-}
+
 .banner .title{
     font-weight: 600;
 }
@@ -202,7 +204,7 @@ nav{
 .videos-container{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
     gap: 2rem;
 }
@@ -218,6 +220,33 @@ nav{
     width: 100%;
 }
 .videos-container img:hover{
-    border-color: black;
+    background-color: black;
     background-blend-mode: overlay;
+}
+/* videos section ends here */
+/* play instant section starts here */
+
+.play-instant{
+    max-width: 1400px;
+    min-width: 370px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.play-instant-text{
+    max-width: 350px;
+    text-align: right;
+}
+.play-instant-image{
+    position: relative;
+}
+.large-image{
+    max-width: 600px;
+}
+.small-image{
+    max-width: 300px;
+    position: absolute;
+    left: -25%;
+    bottom: -10%;
 }

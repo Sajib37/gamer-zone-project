@@ -57,6 +57,24 @@
         width: 95%;
         margin: auto;
     }
+    .play-instant{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+    }
+    .large-image{
+        max-width: 200px;
+        margin-top: 1.5rem;
+    }
+    .small-image{
+        max-width: 100px;
+    }
+    .play-instant-text{
+        max-width: 250px;
+    }
+    .play-instant-text h3{
+        font-size: 2rem;
+    }
 }
 
 /* for tablet screen */
@@ -96,11 +114,5 @@
     .gamer-image {
         width: 95%;
         margin: auto;
-    }
-    .videos-container {
-        align-items: flex-start;
-    }
-    .videos-container div{
-        height: 100%;
     }
 }
