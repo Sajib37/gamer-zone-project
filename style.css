@@ -278,3 +278,50 @@ nav{
     right: -25%;
     bottom: -20%;
 }
+
+.career{
+    background-color: #FF42A5;
+    width: 100%;
+    margin-top: 160px;
+}
+.career-container{
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: auto;
+    padding: 100px 0px;
+}
+.career-text{
+    width: 50%;
+    color: white;
+}
+.career-image{
+    width: 50%;
+}
+.career-image img{
+    width: 100%;
+}
+.carrer-title{
+    margin-bottom: 2rem;
+}
+.career-text .para{
+    color: white;
+    margin-bottom: 1rem;
+}
+.artist{
+    display: flex;
+    justify-content: space-between;
+}
+.artist-location p{
+    text-align: right;
+}
+.see-btn{
+    margin-top: 2rem;
+    padding: 20px 30px;
+    border: 0px;
+    border-radius: 30px;
+    color: #FF42A5;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
