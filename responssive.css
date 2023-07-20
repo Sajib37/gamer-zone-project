@@ -54,8 +54,13 @@
         align-items: center;
     }
     .videos-container img {
-        width: 95%;
+        width: 90%;
         margin: auto;
+    }
+    .videos-container .overlay{
+        width: 90%;
+        margin-left: 1.2rem;
+        /* margin: 0px auto; */
     }
     .play-instant {
         flex-direction: column;

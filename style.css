@@ -207,20 +207,44 @@ nav {
     width: 100%;
     gap: 2rem;
 }
-.videos-container div {
+.videos-container>div {
     width: 20%;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+}
+.overlay i{
+    color:  white;
+    font-size: 3em;
+    margin-bottom: 1rem;
+}
+.image-container:hover .overlay{
+    opacity: 1;
+    transition: 0.8s;
+    border-radius: 1rem;
 }
 .videos-container div .para {
     text-align: center;
     margin-top: 10px;
-    padding: 0px 5px;
+    max-width: 350px;
+    /* padding: 0px 5px; */
 }
 .videos-container img {
     width: 100%;
-}
-.videos-container img:hover {
-    background-color: black;
-    background-blend-mode: overlay;
 }
 /* videos section ends here */
 /* play instant section starts here */
@@ -249,6 +273,10 @@ nav {
     left: -25%;
     bottom: -10%;
 }
+
+/* play instant section ends here 
+play games section starts here  */
+
 .play-games {
     max-width: 1400px;
     min-width: 370px;
@@ -278,13 +306,18 @@ nav {
     bottom: -20%;
 }
 
+/* play games section ends here 
+careeer section starts here */
+
 .career {
     background-color: #ff42a5;
     width: 100%;
     margin-top: 160px;
+    min-width: 370px;
 }
 .career-container {
     max-width: 1400px;
+    min-width: 370px;
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -325,6 +358,9 @@ nav {
     cursor: pointer;
 }
 
+/* career section ends here 
+.type-of-games section starts here  */
+
 .type-of-games {
     max-width: 1400px;
     padding: 100px 0px;
@@ -344,14 +380,18 @@ nav {
     gap: 2px;
     width: 15rem;
     margin-bottom: 0.5rem;
-    padding: 10px;
+    /* padding: 10px; */
+    /* box-sizing: border-box; */
 }
 .type-of-games div:hover {
     border: 2px solid #ff42a5;
     color: #ff42a5;
     border-radius: 40px;
-    transition: 0.5s;
+    transition: 0.1s;
 }
+
+/* .type-of-games section ends here 
+footer section start here */
 
 footer {
     height: 40vh;
