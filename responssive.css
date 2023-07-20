@@ -19,9 +19,9 @@
         position: relative;
     }
     .bg-image img {
-        height: 40%;
+        height: 45%;
         position: absolute;
-        bottom: -50%;
+        bottom: -55%;
         left: 0px;
     }
     .banner img {
@@ -38,6 +38,7 @@
     }
     .gamer-text {
         width: 95%;
+        text-align: center;
     }
     .gamer-image {
         width: 95%;
@@ -83,6 +84,7 @@
     }
     .play-instant-text {
         max-width: 250px;
+        text-align: center;
     }
     .play-instant-text h3 {
         font-size: 2rem;
@@ -104,6 +106,7 @@
     }
     .play-games-text {
         margin-top: 5rem;
+        text-align: center;
     }
 
     .career-container {
@@ -158,6 +161,11 @@
             "text-part";
         grid-row-gap: 0.5rem;
     }
+    .bg-image img {
+        position: absolute;
+        bottom: -177%;
+        left: 0px;
+    }
     .banner img {
         height: auto;
         width: 80%;
@@ -166,6 +174,7 @@
     }
     .banner-text {
         margin: auto;
+        text-align: center;
     }
     .gamer {
         flex-direction: column;
@@ -174,6 +183,7 @@
     .gamer-text {
         width: 95%;
         margin: auto;
+        text-align: center;
     }
     .gamer-image {
         width: 95%;
@@ -183,6 +193,9 @@
         flex-direction: column;
         width: 100%;
         margin: 0px;
+    }
+    .play-instant-text{
+        text-align: center;
     }
     .large-image {
         max-width: 400px;
@@ -195,6 +208,9 @@
         flex-direction: column;
         width: 100%;
         margin: 0px;
+    }
+    .play-games-text{
+        text-align: center;
     }
     .play-games-image {
         margin-top: 7rem;
