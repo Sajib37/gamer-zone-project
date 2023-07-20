@@ -16,6 +16,13 @@
             "image-part"
             "text-part";
         grid-row-gap: 0.5rem;
+        position: relative;
+    }
+    .bg-image img {
+        height: 40%;
+        position: absolute;
+        bottom: -50%;
+        left: 0px;
     }
     .banner img {
         width: 95%;
@@ -57,7 +64,7 @@
         width: 90%;
         margin: auto;
     }
-    .videos-container .overlay{
+    .videos-container .overlay {
         width: 90%;
         margin-left: 1.2rem;
         /* margin: 0px auto; */
@@ -101,6 +108,7 @@
 
     .career-container {
         flex-direction: column;
+        padding: 1rem;
     }
     .career-text {
         width: 90%;
@@ -128,7 +136,7 @@
     .terms-condition {
         gap: 1rem;
     }
-    footer .para{
+    footer .para {
         font-size: 14px;
     }
 }
@@ -203,6 +211,7 @@
     }
     .career-container {
         flex-direction: column;
+        padding: 2rem;
     }
     .career-text {
         width: 90%;
@@ -210,7 +219,42 @@
     .career-image {
         width: 90%;
     }
-    footer{
+    footer {
         height: 50vh;
+    }
+}
+
+/* Responssive for small laptop device */
+
+@media screen and (min-width: 962px) and (max-width: 1200px) {
+    nav {
+        box-sizing: border-box;
+        padding: 2rem;
+    }
+    .menu-container {
+        width: 60%;
+    }
+    .gamer {
+        box-sizing: border-box;
+        padding: 2rem;
+    }
+    .large-image {
+        max-width: 400px;
+    }
+    .small-image {
+        max-width: 200px;
+    }
+    .second-large-image {
+        max-width: 400px;
+    }
+    .second-small-image {
+        max-width: 200px;
+    }
+    .career {
+        padding: 5rem;
+        box-sizing: border-box;
+    }
+    footer {
+        padding: 3rem 2rem;
     }
 }

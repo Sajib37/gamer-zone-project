@@ -22,7 +22,7 @@ nav {
     display: flex;
 }
 .nav-logo img {
-    width: 4rem;
+    width: 3rem;
     margin-right: 0.5rem;
 }
 .title {
@@ -47,10 +47,10 @@ nav {
 .nav-icons {
     display: flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 5px;
+    gap: 1rem;
+    padding: 1rem;
     background-color: #e7e6e9;
-    border-radius: 5px;
+    border-radius: 0.5rem;
 }
 .fa-brands {
     font-size: 2rem;
@@ -80,7 +80,7 @@ nav {
     grid-area: text-part;
     padding: 1rem;
 }
-.bg-image {
+.bg-image img {
     position: absolute;
     left: 0px;
     height: 100%;
@@ -171,7 +171,7 @@ nav {
 }
 .know-more {
     background-color: #ff42a5;
-    width: 30%;
+    width: 10rem;
     margin: 1rem 0px;
 }
 .mini-title {
@@ -207,14 +207,14 @@ nav {
     width: 100%;
     gap: 2rem;
 }
-.videos-container>div {
+.videos-container > div {
     width: 20%;
 }
-.image-container{
+.image-container {
     position: relative;
     width: 100%;
 }
-.overlay{
+.overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -227,12 +227,12 @@ nav {
     background-color: rgba(0, 0, 0, 0.6);
     opacity: 0;
 }
-.overlay i{
-    color:  white;
+.overlay i {
+    color: white;
     font-size: 3em;
     margin-bottom: 1rem;
 }
-.image-container:hover .overlay{
+.image-container:hover .overlay {
     opacity: 1;
     transition: 0.8s;
     border-radius: 1rem;
@@ -322,7 +322,8 @@ careeer section starts here */
     align-items: center;
     gap: 2rem;
     margin: auto;
-    padding: 100px 0px;
+    /* box-sizing: border-box;
+    padding: 100px; */
 }
 .career-text {
     width: 50%;
@@ -363,7 +364,8 @@ careeer section starts here */
 
 .type-of-games {
     max-width: 1400px;
-    padding: 100px 0px;
+    box-sizing: border-box;
+    padding: 100px 10px;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -394,7 +396,8 @@ careeer section starts here */
 footer section start here */
 
 footer {
-    height: 40vh;
+    height: auto;
+    min-width: 370px;
     width: 100%;
     background-color: #0b0223;
     display: flex;
@@ -402,7 +405,11 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    padding: 20px 0px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+footer p {
+    text-align: center;
 }
 footer h3 {
     color: white;
