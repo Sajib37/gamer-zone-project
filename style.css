@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 body {
     font-family: "Work Sans", sans-serif;
@@ -365,7 +366,7 @@ careeer section starts here */
 .type-of-games {
     max-width: 1400px;
     box-sizing: border-box;
-    padding: 100px 10px;
+    padding: 100px 0px;
     margin: auto;
     display: flex;
     justify-content: center;
